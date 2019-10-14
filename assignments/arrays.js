@@ -149,7 +149,7 @@ let getBmwAndAudi = (invArray) => {
   let BMWAndAudi = invArray;
   for (i = 0; i < invArray.length; i += 0) {
     if (invArray[i].car_make != "BMW" && invArray[i].car_make != "Audi") {
-      console.log("Inventory item " + invArray[i].car_make + " removed from array!");
+      // console.log("Inventory item " + invArray[i].car_make + " removed from array!");
       BMWAndAudi.splice(i, 1);
     }
     else {
